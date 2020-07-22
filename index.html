@@ -12,8 +12,9 @@
             h1 {
                 color: #545454;
                 font-family: 'Raleway', sans-serif; 
-                font-size: 400%;
-                padding-bottom: 0px;
+                font-size: 500%;
+                padding-top: 3%;
+                margin-top: 0%;
             }
 
             h2 {
@@ -36,7 +37,6 @@
             }
 
              /* side nav bar stuff*/
-
              .sidenav {
                 height: 100%;
                 width: 0;
@@ -49,7 +49,8 @@
                 transition: 0.5s;
                 padding-top: 60px;
              }
-          
+             
+             /* nav menu links */
              .sidenav a {
                 padding: 8px 8px 8px 32px;
                 text-decoration: none;
@@ -60,16 +61,24 @@
                 transition: 0.3s;
              }
             
+            /* colour change when you hover over the text */
             .sidenav a:hover {
                 color: white;
             }
             
+            /* the x button in the corner */
             .sidenav .closebtn {
                 position: absolute;
                 top: 0;
                 right: 25px;
                 font-size: 36px;
                 margin-left: 50px;
+            }
+
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
             }
         </style>
     </head>
@@ -97,13 +106,10 @@
         </script>
 
         <!-- the actual button for side nav bar -->
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; 
-            <!--<style>
-                align: left: ;
-            </style>-->
-             
+        <span style="font-size:200%; cursor:pointer; float:left; padding-top:0%;" onclick="openNav()">&#9776; 
         </span>
 
+        <!-- here are the headers & text -->
         <h1> 
           <strong> EVERY INTENTION COUNTS. </strong>  
         </h1>
