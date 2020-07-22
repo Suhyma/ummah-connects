@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<title>My Page</title>
+  <link rel="stylesheet" href="styles.css">
+  
+    </head>
+<body>
+
+<section class="fact">
+  <img src="/pics/F1.png" alt="palfact"></section>
+
+<section class='features'>
+  <figure>
+    <img src='pics/pal - Copy.png' alt="pal">
+</figure>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit consequatur tempora repudiandae! Dolor itaque nam perspiciatis reprehenderit deserunt, corporis, dicta consequatur eius nisi quisquam in culpa inventore, distinctio fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas distinctio doloremque, odit provident aut asperiores, saepe tempore, nobis quos laboriosam hic rem excepturi! Dolor labore voluptas voluptates itaque sapiente nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque natus excepturi beatae numquam explicabo hic aperiam iusto ullam fugit aliquam ducimus iste repellat ab fugiat, architecto alias consectetur similique sequi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis odio, eius quam quod libero harum debitis porro natus dolorem aliquid similique aperiam nostrum vitae asperiores ea, vel nemo doloremque dignissimos. </p>
+</section>
+<section class="Btn">
+  <!-- Trigger/Open The Modal -->
+  <button id="myBtn1" class="Btn1">Donation</button>
+  <button id="myBtn2" class="Btn2">Petition</button>
+</section>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <header>Donations</header>
+    <section class="figs">
+        
+        <figure>
+          <a href="https://www.islamicreliefcanada.org/" target="_blank"><img src="pics/IRC.png" alt="pal">
+          <figcaption>Islamic Relief Canada</figcaption></a>
+        </figure>
+      
+        <figure>
+          <a href="https://www.islamicreliefcanada.org/" target="_blank"><img src="pics/IRC.png" alt="pal">
+          <figcaption>Islamic Relief Canada</figcaption></a>
+        </figure>
+      
+        <figure>
+          <a href="https://www.islamicreliefcanada.org/" target="_blank"><img src="pics/IRC.png" alt="pal">
+          <figcaption>Islamic Relief Canada</figcaption></a>
+        </figure>
+      
+       
+      </section>
+    
+  
+  </div>
+
+<!-- javascript -->
+<script> // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn1");
+  var btn2 = document.getElementById("myBtn2");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  btn2.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }</script>
+
+
+
+
+  </body>
+</html>
+
+

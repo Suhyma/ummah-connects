@@ -1,0 +1,146 @@
+body {
+  background: #333;
+    color: white;
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: #333;
+  padding: 50px;
+  border: solid 2px red;
+  font-size: 100px;
+  font-style: italic;
+}
+
+.fact {
+
+margin: auto;
+text-align: center;
+padding: 0;
+background-color: rgb(78, 209, 78);
+
+}
+
+.features {
+  background: white;
+  color: black;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.features figure{
+  width: 100px;
+  text-align: center;
+  
+}
+.features figure img {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: black 0 0 20px;
+}
+.features p {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  position: relative;
+  left: 250px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 35%;
+}
+
+.Btn {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.Btn1{
+  height: 35px;
+  width: 100px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  left: 400px;
+ 
+}
+.Btn2{
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  position: relative;
+  left: 800px;
+  margin: auto;
+}
+
+.Btn :hover {
+  box-shadow: 0 0 10px;  
+}
+
+.modal header {
+  margin: auto;
+  padding: 0;
+  width: 82.5%;
+  text-align: center;
+  font-size: 100px;
+  
+  display: block;
+  border: solid 1px white;
+  color: black;
+  }
+
+
+.figs {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 65%;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.figs figcaption {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.figs img {
+margin: auto;
+padding: auto;
+width: 300px;
+border-radius: 50%;
+box-shadow: black 0 0 10px;
+border: solid 1px white;
+}
+
+.figs img:hover {
+  box-shadow: black 0 0 20px;
+}
