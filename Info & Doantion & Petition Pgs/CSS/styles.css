@@ -8,7 +8,7 @@ body {
 /* Fact1 Header */
 .fact1{
   background: lightgray;
-  background-image: url(/pics/banner/y1.png);
+  background-image: url("Info & Doantion & Petition Pgs/Pics/banner/y1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -55,8 +55,8 @@ body {
 
 .til1 {
   background: lightgray;
-  background-image: url(/pics/banner/updated.png);
-  background-size: cover;
+  background-image: url("Info & Doantion & Petition Pgs/Pics/banner/updated.png");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
