@@ -15,8 +15,8 @@
             .homepage h1 {
                 color: #545454;
                 font-family: 'Raleway', sans-serif; 
-                font-size: 475%;
-                padding-top: 3%;
+                font-size: 500%;
+                padding-top: 5%;
                 margin-top: 1%;
             }
 
@@ -24,20 +24,25 @@
                 color: #545454;
                 font-family: 'Open Sans', sans-serif;
                 font-size: 140%;
-                top: 50px;
+                padding-top: 1%;
             }
 
             .homepage h3 {
                 color: #545454;
                 font-family: 'Open Sans', sans-serif;
+                font-size: 120%;
             }
 
             .homepage {
                 text-align: center;
                 background-image: url("https://images.unsplash.com/photo-1504198266287-1659872e6590?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
                 background-repeat: no-repeat;
+                background-position: center;
                 background-size: cover;
-                background-attachment: local;     
+                background-attachment: local;
+                min-height: 100%;
+                min-width: 100%;
+                top: 0px;
             }
 
              /* side nav bar stuff*/
@@ -84,6 +89,7 @@
                 .sidenav a {font-size: 18px;}
             }
 
+            /* about us pg formatting */
             .about  {
                 background-color: lightgray;
                 background-image: url("https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
@@ -95,7 +101,7 @@
             .about h1 {  
                 color:#545454;
                 text-align:center;
-                font-size: 400%;
+                font-size: 450%;
                 font-family: 'Raleway', sans-serif; 
             }
 
@@ -119,7 +125,7 @@
                 padding:50px;
             }
 
-            .about .text{
+            .text{
                 position: relative;
                 font-size: 25px;
                 line-height: 24px;
@@ -156,8 +162,8 @@
         <!-- links within the side nav bar -->
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index (2).html">About Us</a>
-            <a href="Info-Page/index.html">Yemen </a>
+            <a href="#about-us">About Us</a>
+            <a href="#">Yemen </a>
             <a href="#">Palestine</a>
             <a href="#">China</a>
             <a href="#">Rohingya</a>
@@ -199,7 +205,7 @@
         </section>
 
         <!------------------------ About Us ----------------------------------------->
-        <section class="about">
+        <section class="about" id="about-us">
             <h1><b><br>ABOUT US</b> </h1>
         <br>
         <div class="rectangle"> <p class="text"> We are a team of incoming university students<br>  with a vision to create a platform that sheds<br> light towards areas where many of our <br>muslim brothers and sisters are facing <br>severely limited access to humanitarian<br> assistance. Unfortunately, they do not have a<br> voice so we want to represent them and allow<br> their voices to be heard. This platform is<br> intended to make it easy to sign petitions and <br>donate in one go using reliable resources.<br> </p></div>
