@@ -8,19 +8,20 @@
              /* this is importing all the fonts used for homepage */
              @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
              @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-            
+
             h1 {
                 color: #545454;
                 font-family: 'Raleway', sans-serif; 
-                font-size: 500%;
+                font-size: 475%;
                 padding-top: 3%;
-                margin-top: 0%;
+                margin-top: 1%;
             }
 
             h2 {
                 color: #545454;
                 font-family: 'Open Sans', sans-serif;
-                font-size: 150%;
+                font-size: 140%;
+                top: 50px;
             }
 
             h3 {
@@ -75,11 +76,18 @@
                 margin-left: 50px;
             }
 
-            .sticky {
-                position: fixed;
+            @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav a {font-size: 18px;}
+            }
+
+            .sidenav.sticky {
+                position: -webkit-sticky;
+                position:sticky;
                 top: 0;
                 width: 100%;
             }
+
         </style>
     </head>
 
@@ -123,6 +131,8 @@
         </h3>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-        <img src="Info-Page/pics/logo.png" width="125" height="125" alt="Ummah Connects Logo">
+        <!-- logo stuff-->
+        <img src="Info-Page/pics/logo.png" width="90" height="90" alt="Ummah Connects Logo" align="right"
+        style="position:absolute; top: 10px; right:25px;">
     </body>
 </html>
