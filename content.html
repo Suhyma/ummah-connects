@@ -251,9 +251,80 @@ body {
   color: black;
   font-weight: bold;
 }
+
+/* side nav bar stuff*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/* nav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 125%;
+  font-family: 'Open Sans', sans-serif;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+            
+/* colour change when you hover over the text */
+.sidenav a:hover {
+ color: white;
+}
+            
+/* the x button in the corner */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 </style>
 
 <body>
+
+  <!-- side navigation bar -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="index.html#about-us">About Us</a>
+    <a href="content.html#yemen">Yemen </a>
+    <a href="content.html#pal">Palestine</a>
+    <a href="content.html#uyg">Uighur</a>
+    <a href="content.html#roh">Rohingya</a>
+</div>
+  
+<!-- javascript animation for side nav bar -->
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<!-- the actual button for side nav bar -->
+<span style="font-size:200%; cursor:pointer; padding-top:0%; position: fixed; top:3%; left: 1%" onclick="openNav()">&#9776; 
+</span>
+
 <!--1-------------------------------------------------------------------------------------->
 
 
